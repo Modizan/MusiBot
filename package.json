@@ -1,0 +1,41 @@
+{
+  "dependencies": {
+    "@discordjs/opus": "^0.7.0",
+    "@discordjs/voice": "^0.7.5",
+    "bufferutil": "^4.0.5",
+    "discord.js": "^13.5.0",
+    "dotenv": "^10.0.0",
+    "erlpack": "github:discord/erlpack",
+    "ffmpeg-static": "^4.4.0",
+    "libsodium-wrappers": "^0.7.9",
+    "play-dl": "^1.6.8",
+    "utf-8-validate": "^5.0.7",
+    "zlib-sync": "^0.1.7"
+  },
+  "name": "MusiBot",
+  "version": "0.2.4",
+  "description": "A Node.js discord music bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Modizan/MusiBot.git"
+  },
+  "keywords": [
+    "Discord",
+    "Musicbot",
+    "Nodejs"
+  ],
+  "author": "Modizan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Modizan/MusiBot/issues"
+  },
+  "homepage": "https://github.com/Modizan/MusiBot#readme",
+  "devDependencies": {
+    "eslint": "^8.2.0"
+  }
+}
